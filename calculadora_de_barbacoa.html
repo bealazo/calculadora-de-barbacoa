@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calculadora_de_barbacoa.css">
+    
+    <title>Calculadora de barbacoa</title>
+</head>
+<body>
+<div>
+    <form>
+    <div class="container_img_calc">
+        <img src="https://carnicaselalcazar.es/img/cms/calculadora Título.png" alt="calculadora" width="50%" height="auto" />
+    </div>
+    <p><strong><label><span>INVITADOS</span>:</label></strong></p>
+    <p><strong><label for="no_ninos">Número de niños:</label></strong> <input id="no_ninos" type="number" /></p>
+    <p><strong><label for="no_adultos">Número de adultos:</label></strong> <input id="no_adultos" type="number" /></p>
+    </form>
+</div>
+<p></p>
+<div ><strong><label><span >La barbacoa es</span>: </label></strong></div>
+<p></p>
+<div class="container_tipo_barbacoa_carne_buttons_inputs">
+<div ><button class="buttons_tipo_barbacoa_carne" id="plancha" value="Plancha"><img src="https://carnicaselalcazar.es/img/cms/plancha.png" alt="" width="80" height="80" /></button><br /><strong><label>PLANCHA</label></strong></div>
+<div><button class="buttons_tipo_barbacoa_carne" id="parrilla" value="Parrilla"><img src="https://carnicaselalcazar.es/img/cms/parrilla2.png" alt="" width="80" height="80" /></button><br /><strong><label>PARRILLA</label></strong></div>
+</div>
+<p></p>
+<div ><strong><label><span >¿Qué os gusta?</span>:</label></strong></div>
+<p></p>
+<div class="container_tipo_barbacoa_carne_buttons_inputs">
+<div><button class="buttons_tipo_barbacoa_carne" id="cerdo_iberico" value="Cerdo Ibérico"><img src="https://carnicaselalcazar.es/img/cms/cerdo_2.png" alt="" width="80" height="80" /></button> <br /><strong><label>CERDO</label></strong></div>
+<div ><button class="buttons_tipo_barbacoa_carne" id="ternera" value="Ternera"><img src="https://carnicaselalcazar.es/img/cms/ternera_1.png" alt="" width="80" height="80" /></button> <br /><strong><label>TERNERA</label></strong></div>
+<div ><button class="buttons_tipo_barbacoa_carne" id="ambos" value="Ambos"><img src="https://carnicaselalcazar.es/img/cms/ambos_1.png" alt="" width="80" height="80" /></button><br /><strong><label>AMBOS</label></strong></div>
+</div>
+<p></p>
+<div><strong><label><span >¿Cuánto tiempo planeas que dure la barbacoa?</span>:</label></strong></div>
+<p></p>
+<div class="container_buttons_tiempo_barbacoa"><button class="buttons_tiempo_barbacoa" id="almuerzo" value="Almuerzo"><strong><label>ALMUERZO</label></strong></button></div>
+<div class="container_buttons_tiempo_barbacoa"><button class="buttons_tiempo_barbacoa" id="cena" value="Cena"><strong><label>CENA</label></strong></button></div>
+<div ><button class="buttons_tiempo_barbacoa" id="todo" value="Todo el día"><strong><label>TODO EL DÍA</label></strong></button></div>
+<p></p>
+<div ><strong><label><span >¿Queréis picar antes?</span>:</label></strong></div>
+<p></p>
+<div class="container_tipo_barbacoa_carne_buttons_inputs">
+<div class="input_si"><label for="si">Si</label><input type="radio" id="si" name="picar" value="Si" checked="checked" /></div>
+<div class="input_no"><label for="no">No</label><input type="radio" id="no" name="picar" value="No" /></div>
+</div>
+<p></p>
+<div ><button class="button_calcular" id="enviar"><strong><label style="cursor: pointer;">CALCULAR</label></strong><img style="display: inline;" src="https://carnicaselalcazar.es/img/cms/logo calcular.png" alt="" width="25" height="25" /></button></div>
+<p></p>
+<div class="container_resultados">
+<p id="mostrar_resultados"></p>
+</div>
+<div class="container_img_chico"><img src="https://carnicaselalcazar.es/img/cms/Personaje BBQ.png" alt="" width="75%" height="auto" /></div>
+
+<script src="calculadora_de_barbacoa.js"></script>
+
+</body>
+
+</html>

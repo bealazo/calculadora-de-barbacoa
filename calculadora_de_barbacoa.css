@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color:#ECF8E0;
+}
+
+.container_img_calc{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;     
+    align-items: center;
+    width: 100vw;
+}
+span{
+    text-decoration: underline;
+}
+input[type="number"]{
+    width: 50px;
+}
+.container_tipo_barbacoa_carne_buttons_inputs{
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+
+.buttons_tipo_barbacoa_carne{
+    background-color: #9baa66; border: 1px solid #D1D0CF; border-radius: 10px;
+}
+.buttons_tiempo_barbacoa{
+    background-color: #9baa66; border: 1px solid #D1D0CF; width: 200px; padding: 5px; border-radius: 5px; color: white;
+}
+.container_buttons_tiempo_barbacoa{
+    margin-bottom: 5px;
+}
+.input_si{
+    padding-right: 10px;
+}
+.input_no{
+    padding-left: 10px;
+}
+.button_calcular{
+    background-color: #484d2f; border: 1px solid #D1D0CF; border-radius: 5px; color: white; text-align: center; width: 150px; padding-bottom: 10px; padding: 5px;
+}
+.container_resultados{
+    display: flex; justify-content: center;
+}
+#mostrar_resultados{
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.container_img_chico{
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
