@@ -17,7 +17,7 @@ Desarrollada para incorporar a tienda online sobre prestashop.
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](https://bealazo.github.io/portfolio/images/pic-7.png)
 
 
 ## Authors
