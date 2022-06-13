@@ -1,7 +1,7 @@
 
 # Calculadora de Barbacoa
 
-Página web para el cálculo de recursos necesarios para realizar una barbacoa. 
+Página web para el cálculo de los recursos necesarios para realizar una barbacoa. 
 Desarrollada para incorporar a tienda online sobre prestashop.
 
 
